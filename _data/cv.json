@@ -1,0 +1,300 @@
+{
+  "basics": {
+    "name": "Thanh Nguyen",
+    "email": "nqthanh2101.hcmut@gmail.com",
+    "phone": "",
+    "website": "https://nqthanh2101hcmut.github.io/personalpage",
+    "summary": "M.Res. student in Applied Mathematics at HCMUT (VNU-HCM). I work on the mathematical foundations of generative models: objective design, density estimation, score/flow matching, and optimal transport. Seeking an AI research internship or research scientist role.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Ho Chi Minh City",
+      "countryCode": "VN",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "Thanh Nguyen",
+        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+      },
+      {
+        "network": "GitHub",
+        "username": "nqthanh2101hcmut",
+        "url": "https://github.com/nqthanh2101hcmut"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Ho Chi Minh City University of Technology (HCMUT), VNU-HCM",
+      "position": "Graduate Research Assistant",
+      "website": "https://hcmut.edu.vn",
+      "startDate": "2025-03-01",
+      "endDate": "",
+      "summary": "Density-Estimation-Based Objective Design for Generative Models (advisor: Dr. Le Xuan Dai).",
+      "highlights": [
+        "Investigated theoretical and empirical properties of training objectives for diffusion models, normalizing flows and VAEs.",
+        "Developed a density-estimation formulation connecting KL minimization with score-matching and flow-matching objectives.",
+        "Designed comparative experiments on convergence, training stability and sample quality."
+      ]
+    },
+    {
+      "company": "Ho Chi Minh City University of Technology (HCMUT), VNU-HCM",
+      "position": "Graduate Research Assistant",
+      "website": "https://hcmut.edu.vn",
+      "startDate": "2024-10-01",
+      "endDate": "2025-03-01",
+      "summary": "Bayesian Optimization Algorithms for Machine Learning Models (advisor: Dr. Le Xuan Dai).",
+      "highlights": [
+        "Studied Bayesian optimization for hyperparameter and architecture search in deep learning.",
+        "Analysed acquisition strategies and training dynamics to identify limitations in high-dimensional settings.",
+        "Evaluated candidate algorithmic improvements on benchmark datasets."
+      ]
+    },
+    {
+      "company": "PVCFC - PetroVietnam",
+      "position": "Data Scientist Intern",
+      "website": "",
+      "startDate": "2024-10-01",
+      "endDate": "2025-04-01",
+      "summary": "Operational and sales analytics.",
+      "highlights": [
+        "Extracted and cleaned ERP operational and sales data.",
+        "Built Power BI dashboards for revenue, production and sales monitoring; supported an approximately 5% reduction in excess inventory."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ho Chi Minh City University of Technology (HCMUT), VNU-HCM",
+      "area": "M.Res. in Applied Mathematics",
+      "studyType": "M.Res.",
+      "startDate": "2024",
+      "endDate": "2026",
+      "gpa": "3.5/4.0",
+      "courses": [
+        "Thesis: Optimizing Score Flow Matching for Generative Models Based on Density Estimation",
+        "Advisor: Dr. Le Xuan Dai"
+      ]
+    },
+    {
+      "institution": "Dalat University",
+      "area": "B.Sc. in Mathematics Education",
+      "studyType": "B.Sc.",
+      "startDate": "2024",
+      "endDate": "2026",
+      "gpa": "3.2/4.0",
+      "courses": []
+    },
+    {
+      "institution": "University of Economics Ho Chi Minh City",
+      "area": "B.Sc. in Finance & Banking",
+      "studyType": "B.Sc.",
+      "startDate": "2020",
+      "endDate": "2023",
+      "gpa": "3.2/4.0",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "NumPy",
+        "SciPy",
+        "scikit-learn",
+        "Matplotlib",
+        "R"
+      ]
+    },
+    {
+      "name": "Mathematics & ML",
+      "level": "Advanced",
+      "keywords": [
+        "Probability",
+        "Mathematical statistics",
+        "Optimization",
+        "ODEs",
+        "Numerical methods",
+        "Score/flow matching",
+        "Optimal transport",
+        "Generative modeling"
+      ]
+    },
+    {
+      "name": "Research tools",
+      "level": "Advanced",
+      "keywords": [
+        "Git",
+        "Linux/Unix",
+        "LaTeX",
+        "Jupyter",
+        "Experiment tracking",
+        "Visualization"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Vietnamese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Generative modeling",
+      "keywords": [
+        "Diffusion models",
+        "Score-based models",
+        "Flow matching",
+        "Normalizing flows"
+      ]
+    },
+    {
+      "name": "Optimal transport",
+      "keywords": [
+        "OT couplings",
+        "Schrodinger bridges"
+      ]
+    },
+    {
+      "name": "Optimization",
+      "keywords": [
+        "Objective design",
+        "Bayesian optimization",
+        "Linear programming"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Dr. Le Xuan Dai",
+      "reference": "Department of Applied Mathematics, HCMUT - VNU-HCM. Email: ytkadai@hcmut.edu.vn"
+    },
+    {
+      "name": "Assoc. Prof. Dr. Huynh Thi Hong Diem",
+      "reference": "Department of Applied Mathematics, HCMUT - VNU-HCM. Email: hthdiem@hcmut.edu.vn"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Optimization of the Objective Function for Generative Models Based on Distribution Density Estimation",
+      "publisher": "HCMUE Journal of Science",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "A density-estimation formulation linking KL minimization with score-matching and flow-matching objectives."
+    },
+    {
+      "name": "Improving the Score Flow Matching Objective Function via Optimal Transport",
+      "publisher": "HUFLIT Journal of Science",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Optimal transport couplings for straighter probability paths and cheaper sampling."
+    },
+    {
+      "name": "Ranking Objects Based on Multiplicative Consistency of Comparison Matrices: Logarithmic Minimax (Chebyshev) Model and Applications",
+      "publisher": "HCMUE Journal of Science (under review)",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "A log-Chebyshev approximation reducing to a linear program, with a consistency index characterized by the maximum cycle mean."
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Summer School on AI Agents",
+      "event": "Hanoi University of Science and Technology",
+      "date": "2025-09-08",
+      "location": "Hanoi, Vietnam",
+      "description": "Participant."
+    },
+    {
+      "name": "7th National Conference on Prob-Stats: Research, Application and Teaching",
+      "event": "National Conference",
+      "date": "2025-08-04",
+      "location": "Quy Nhon, Vietnam",
+      "description": "Participant."
+    },
+    {
+      "name": "Summer School on Bayesian Models, Computation and Applications",
+      "event": "Summer School",
+      "date": "2025-07-23",
+      "location": "Ho Chi Minh City, Vietnam",
+      "description": "Participant."
+    },
+    {
+      "name": "Compute Ontario Summer School",
+      "event": "Compute Ontario",
+      "date": "2025-06-02",
+      "location": "Online",
+      "description": "Participant."
+    },
+    {
+      "name": "Spring School on Statistics and Machine Learning",
+      "event": "HCMUS - VNU-HCM",
+      "date": "2025-04-08",
+      "location": "Ho Chi Minh City, Vietnam",
+      "description": "Participant."
+    }
+  ],
+  "teaching": [
+    {
+      "course": "International mathematics tutoring (IGCSE, GCSE, IB, A-Level)",
+      "institution": "Independent",
+      "date": "2021-01-01",
+      "role": "Tutor",
+      "description": "Individualized instruction across algebra, calculus, probability, statistics and mechanics."
+    },
+    {
+      "course": "Mathematics olympiad coaching",
+      "institution": "Independent",
+      "date": "2021-06-01",
+      "role": "Coach",
+      "description": "Preparation for TIMO, HKIMO, SASMO, SEAMO, AMC and ASMO."
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Density-estimation-based objective design for generative models",
+      "category": "research",
+      "date": "2025",
+      "url": "/portfolio/01-density-estimation-objectives/",
+      "description": "M.Res. thesis work on unifying KL, score-matching and flow-matching objectives."
+    },
+    {
+      "name": "Optimal transport couplings for score flow matching",
+      "category": "research",
+      "date": "2026",
+      "url": "/portfolio/02-optimal-transport-flow-matching/",
+      "description": "OT couplings for straighter paths and fewer solver steps."
+    },
+    {
+      "name": "Bayesian optimization for machine learning models",
+      "category": "research",
+      "date": "2025",
+      "url": "/portfolio/03-bayesian-optimization/",
+      "description": "Failure modes of Bayesian optimization in high dimensions."
+    },
+    {
+      "name": "Ranking from pairwise comparison matrices",
+      "category": "research",
+      "date": "2026",
+      "url": "/portfolio/04-pairwise-comparison-ranking/",
+      "description": "Logarithmic minimax model reducing to a linear program."
+    },
+    {
+      "name": "Operational and sales analytics at PVCFC",
+      "category": "industry",
+      "date": "2025",
+      "url": "/portfolio/05-industrial-analytics-pvcfc/",
+      "description": "ERP data pipelines and Power BI dashboards."
+    }
+  ]
+}

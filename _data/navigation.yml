@@ -1,0 +1,23 @@
+# Order of the links in the site header.
+# Removing a link only hides it from the header; the page still exists.
+
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Research"
+    url: /portfolio/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "CV"
+    url: /cv/
+
+  # Uncomment when you have at least one real post in _posts/
+  # - title: "Blog"
+  #   url: /year-archive/
+
+  # Alternative JSON-driven CV page (edit _data/cv.json instead of _pages/cv.md)
+  # - title: "CV (JSON)"
+  #   url: /cv-json/
