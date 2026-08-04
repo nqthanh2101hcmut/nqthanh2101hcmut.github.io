@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Research &amp; projects"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>Research threads and projects I have worked on, most recent first. Papers
+that came out of them are listed on the
+<a href="{{ base_path }}/publications/">publications page</a>.</p>
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
