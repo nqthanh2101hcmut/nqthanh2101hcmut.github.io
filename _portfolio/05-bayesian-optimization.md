@@ -2,6 +2,8 @@
 title: "Bayesian optimization for machine learning models"
 excerpt: "A study of acquisition strategies and training dynamics to identify where conventional Bayesian optimization breaks down in high-dimensional hyperparameter and architecture search."
 collection: portfolio
+redirect_from:
+  - /portfolio/03-bayesian-optimization/
 ---
 
 **Role:** Graduate Research Assistant, HCMUT (VNU-HCM) · **Advisor:** Dr. Le Xuan

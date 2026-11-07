@@ -1,14 +1,16 @@
 ---
 title: "Density-estimation-based objective design for generative models"
-excerpt: "M.Res. thesis and ongoing research: a single density-estimation formulation that connects KL minimization with score-matching and flow-matching objectives, tested on convergence, stability and sample quality."
+excerpt: "M.Res. thesis (graded 9.8/10): a single density-estimation formulation that connects KL minimization with score-matching and flow-matching objectives, tested on convergence, stability and sample quality."
 collection: portfolio
+redirect_from:
+  - /portfolio/01-density-estimation-objectives/
 ---
 
 **Role:** Graduate Research Assistant, Department of Applied Mathematics, HCMUT
-(VNU-HCM) · **Advisor:** Dr. Le Xuan Dai · **Mar 2025 – present**
+(VNU-HCM) · **Advisor:** Dr. Le Xuan Dai · **2025 – Mar 2026**
 
 This is the core of my M.Res. thesis, *Optimizing Score Flow Matching for
-Generative Models Based on Density Estimation*.
+Generative Models Based on Density Estimation* (graded 9.8/10).
 
 ### The question
 

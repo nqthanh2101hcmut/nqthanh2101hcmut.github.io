@@ -2,6 +2,7 @@
 title: "Optimization of the Objective Function for Generative Models Based on Distribution Density Estimation"
 collection: publications
 category: journals
+selected: true
 permalink: /publication/2025-10-01-objective-density-estimation
 excerpt: 'A density-estimation view of generative training objectives that links KL minimization to score-matching and flow-matching losses, with a comparative study of convergence, stability and sample quality.'
 date: 2025-10-01

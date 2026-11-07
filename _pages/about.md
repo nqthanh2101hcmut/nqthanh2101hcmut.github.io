@@ -7,41 +7,37 @@ author_profile: true
 
 {% include base_path %}
 
-I am **Thanh Nguyen**, an M.Res. student in Applied Mathematics at the
-**Ho Chi Minh City University of Technology (HCMUT), VNU-HCM**, advised by
-**Dr. Le Xuan Dai**.
+I am **Thanh Nguyen**, an applied mathematician from Ho Chi Minh City. I hold an
+M.Res. in Applied Mathematics from the **Ho Chi Minh City University of
+Technology (HCMUT), VNU-HCM**, where I worked with **Dr. Le Xuan Dai**. My
+thesis, *Optimizing Score Flow Matching for Generative Models Based on Density
+Estimation*, was graded 9.8/10.
 
-My work sits at the intersection of **mathematical machine learning, generative
-modeling, and optimal transport**. I study how the *training objective* of a
-generative model is built: what it estimates, how it is discretized, and what
-that implies for sampling efficiency, stability, and robustness. My thesis,
-*Optimizing Score Flow Matching for Generative Models Based on Density
-Estimation*, develops a density-estimation view that connects KL minimization
-with score-matching and flow-matching objectives, and tests the resulting
-formulations empirically.
+My work has two threads. The first is the **theory and methods of generative
+models**: what a diffusion, score-based or flow-matching objective actually
+estimates, how fast it can be learned, and how optimal transport can make it
+cheaper to train and sample. The second is **learning under weak or noisy
+supervision**, where I use tools such as unbalanced optimal transport to make
+training objectives robust to labels that cannot be trusted.
 
 I like problems where a clean piece of mathematics changes what a model actually
-does in practice, and I am comfortable moving between a proof, a PyTorch
+does in practice, and I am comfortable moving between a proof, a PyTorch or JAX
 implementation, and the experiment that decides between them.
 
 ## Research interests
 
-* **Generative modeling** — diffusion and score-based models, normalizing flows,
-  flow matching, variational autoencoders.
-* **Objective design and density estimation** — what different training losses
-  estimate, and how objective choice affects convergence and sample quality.
-* **Optimal transport and Schrödinger bridges** — OT-based couplings for
-  straighter probability paths and cheaper sampling.
-* **Numerical discretization and sampling efficiency** — solver choice, step
-  budgets, and the error they introduce.
-* **Robustness** — training under noisy or misspecified supervision.
-* **Adjacent interests** — Bayesian optimization, decision models and ranking
-  from pairwise comparison matrices.
+* **Generative models (theory & methods)** — diffusion, score-based and flow
+  matching models; statistical rates for score estimation; density-estimation-based
+  training objectives.
+* **Optimal transport and Schrödinger bridges** — OT couplings for straighter
+  probability paths, and unbalanced OT as a tool for robust alignment.
+* **Weak supervision** — positive-unlabeled (PU) learning for recommender
+  systems; robust CTC training under noisy transcripts.
 
 ## Currently looking for
 
 I am seeking a **research internship or research scientist / research engineer
-role in AI**, starting after my M.Res. (2026). I am especially interested in
+role in AI**. I am especially interested in
 teams working on generative models, diffusion and flow-based methods, optimal
 transport, or the theory–practice gap in modern deep learning. I am open to
 positions abroad and to PhD opportunities in the same areas.
@@ -53,9 +49,9 @@ positions abroad and to PhD opportunities in the same areas.
 
 ## Selected work
 
-{% assign recent_pubs = site.publications | sort: "date" | reverse %}
-{% for post in recent_pubs limit:3 %}
-* **[{{ post.title }}]({{ base_path }}{{ post.url }})** — *{{ post.venue }}*, {{ post.date | date: "%Y" }}.
+{% assign selected_pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
+{% for post in selected_pubs %}
+* **[{{ post.title }}]({{ base_path }}{{ post.url }})** — *{{ post.venue }}*{% unless post.category == "underreview" %}, {{ post.date | date: "%Y" }}{% endunless %}.
 {% endfor %}
 
 A full list is on the [publications page]({{ base_path }}/publications/), and
@@ -63,9 +59,12 @@ ongoing projects are described under [research]({{ base_path }}/portfolio/).
 
 ## News
 
-* **2026** — Manuscript on ranking from pairwise comparison matrices
-  (logarithmic minimax / Chebyshev model) submitted to the *HCMUE Journal of
-  Science*; under review.
+* **2026** — *AlignBC: Robust Error-Aware CTC Training under Severe Transcript
+  Noise* submitted to *IJCAI 2027*.
+* **2026** — *Derivative-Weighted Capacity Bounds for Kernel Score Estimation*
+  accepted at the *NeurIPS 2026 Workshop BeNTo*.
+* **2026** — Completed my M.Res. in Applied Mathematics at HCMUT; thesis graded
+  9.8/10.
 * **2026** — *Improving the Score Flow Matching Objective Function via Optimal
   Transport* accepted in the *HUFLIT Journal of Science*.
 * **Sep 2025** — Attended the Summer School on AI Agents, HUST, Hanoi.
@@ -77,12 +76,13 @@ ongoing projects are described under [research]({{ base_path }}/portfolio/).
 * **2025** — *Optimization of the Objective Function for Generative Models Based
   on Distribution Density Estimation* published in the *HCMUE Journal of
   Science*.
-* **Mar 2025** — Started as a Graduate Research Assistant on density-estimation
-  based objective design for generative models.
+* **Oct 2024** — Started as a Graduate Research Assistant with Dr. Le Xuan Dai
+  at HCMUT.
 
 ## Beyond research
 
 I have taught international mathematics curricula (IGCSE, GCSE, IB, A-Level)
 since 2021 and coached students for olympiads such as TIMO, HKIMO, SASMO, SEAMO,
-AMC and ASMO. I also spent six months as a data science intern at PVCFC
+AMC and ASMO (see [teaching]({{ base_path }}/teaching/) and
+[mentoring]({{ base_path }}/mentoring/)). I also spent six months as a data science intern at PVCFC
 (PetroVietnam), building analytics dashboards on operational and sales data.

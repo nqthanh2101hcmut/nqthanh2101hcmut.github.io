@@ -3,8 +3,8 @@ site_theme               : "default"
 title                    : "Thanh Nguyen"
 title_separator          : "|"
 name                     : "Thanh Nguyen"
-description              : "Applied mathematics researcher working on the mathematical foundations of generative models: score-based and flow-based methods, density-estimation objectives, and optimal transport."
-keywords                 : "generative models, diffusion models, score matching, flow matching, optimal transport, Schrodinger bridge, density estimation, machine learning, applied mathematics"
+description              : "Applied mathematics researcher working on the theory and methods of generative models (diffusion, score-based and flow matching models, optimal transport) and on learning under weak or noisy supervision."
+keywords                 : "generative models, diffusion models, score matching, flow matching, kernel score estimation, optimal transport, Schrodinger bridge, density estimation, weak supervision, PU learning, CTC, machine learning, applied mathematics"
 
 url                      : "https://nqthanh2101hcmut.github.io"
 baseurl                  : "/personalpage"
@@ -35,6 +35,8 @@ author:
 # Groups the /publications/ page into sections. The keys below must match the
 # "category:" field used in the files inside _publications/
 publication_category:
+  conferences:
+    title: "Conference & Workshop Papers"
   journals:
     title: "Journal Articles"
   underreview:
@@ -109,6 +111,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  mentoring:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
@@ -154,6 +159,14 @@ defaults:
       layout: single
       author_profile: true
       comment: true
+
+  - scope:
+      path: ""
+      type: mentoring
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
   - scope:
       path: ""

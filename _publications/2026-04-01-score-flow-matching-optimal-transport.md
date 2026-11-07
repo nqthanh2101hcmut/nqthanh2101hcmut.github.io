@@ -2,6 +2,7 @@
 title: "Improving the Score Flow Matching Objective Function via Optimal Transport"
 collection: publications
 category: journals
+selected: true
 permalink: /publication/2026-04-01-score-flow-matching-optimal-transport
 excerpt: 'Uses optimal transport couplings to reshape the score flow matching objective, giving straighter probability paths, lower gradient variance and cheaper sampling.'
 date: 2026-04-01

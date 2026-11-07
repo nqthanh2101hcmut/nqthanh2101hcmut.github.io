@@ -4,7 +4,7 @@
     "email": "nqthanh2101.hcmut@gmail.com",
     "phone": "",
     "website": "https://nqthanh2101hcmut.github.io/personalpage",
-    "summary": "M.Res. student in Applied Mathematics at HCMUT (VNU-HCM). I work on the mathematical foundations of generative models: objective design, density estimation, score/flow matching, and optimal transport. Seeking an AI research internship or research scientist role.",
+    "summary": "Applied mathematician (M.Res., HCMUT, VNU-HCM) working on the theory and methods of generative models (diffusion, score-based and flow matching models, optimal transport) and on learning under weak or noisy supervision. Seeking an AI research internship or research scientist role.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -27,16 +27,27 @@
   },
   "work": [
     {
-      "company": "Ho Chi Minh City University of Technology (HCMUT), VNU-HCM",
-      "position": "Graduate Research Assistant",
-      "website": "https://hcmut.edu.vn",
-      "startDate": "2025-03-01",
+      "company": "Research project (first author)",
+      "position": "AlignBC: Bounded-Cost Supervision for CTC Training",
+      "website": "",
+      "startDate": "2026-03-01",
       "endDate": "",
-      "summary": "Density-Estimation-Based Objective Design for Generative Models (advisor: Dr. Le Xuan Dai).",
+      "summary": "Robust CTC training under noisy transcripts; manuscript submitted to IJCAI 2027.",
       "highlights": [
-        "Investigated theoretical and empirical properties of training objectives for diffusion models, normalizing flows and VAEs.",
-        "Developed a density-estimation formulation connecting KL minimization with score-matching and flow-matching objectives.",
-        "Designed comparative experiments on convergence, training stability and sample quality."
+        "Developed AlignBC, a training-only framework adding alignment-weighted bounded costs to CTC-family objectives using posterior or unbalanced OT plans, without changing the decoder or inference.",
+        "Derived closed-form gradient updates and proved a mass-sensitivity factorization; significant WER reductions in 7 of 8 CRNN-based STC/OTC comparisons on IAM and UIT-HWDB under synthetic transcript noise (five seeds; Holm-corrected tests)."
+      ]
+    },
+    {
+      "company": "Research project (first author)",
+      "position": "Capacity-Dependent Theory for Kernel Score Estimation",
+      "website": "",
+      "startDate": "2026-01-01",
+      "endDate": "2026-08-01",
+      "summary": "NeurIPS 2026 Workshop BeNTo.",
+      "highlights": [
+        "Introduced a derivative-weighted effective dimension for kernel score estimation, giving capacity-dependent rates beyond capacity-independent bounds.",
+        "Proved an exact derivative penalty for diagonal and curl-free torus kernels and a matching minimax lower bound, with guarantees at every diffusion time."
       ]
     },
     {
@@ -44,12 +55,11 @@
       "position": "Graduate Research Assistant",
       "website": "https://hcmut.edu.vn",
       "startDate": "2024-10-01",
-      "endDate": "2025-03-01",
-      "summary": "Bayesian Optimization Algorithms for Machine Learning Models (advisor: Dr. Le Xuan Dai).",
+      "endDate": "2026-03-01",
+      "summary": "Advisor: Dr. Le Xuan Dai.",
       "highlights": [
-        "Studied Bayesian optimization for hyperparameter and architecture search in deep learning.",
-        "Analysed acquisition strategies and training dynamics to identify limitations in high-dimensional settings.",
-        "Evaluated candidate algorithmic improvements on benchmark datasets."
+        "Generative models (2025-2026): proposed objectives unifying KL, score and flow matching, and an OT-improved score flow matching objective (2 journal papers, M.Res. thesis).",
+        "Bayesian optimization (2024-2025): benchmarked Bayesian optimization for hyperparameter search."
       ]
     },
     {
@@ -74,13 +84,13 @@
       "endDate": "2026",
       "gpa": "3.5/4.0",
       "courses": [
-        "Thesis: Optimizing Score Flow Matching for Generative Models Based on Density Estimation",
+        "Thesis: Optimizing Score Flow Matching for Generative Models Based on Density Estimation (grade 9.8/10)",
         "Advisor: Dr. Le Xuan Dai"
       ]
     },
     {
       "institution": "Dalat University",
-      "area": "B.Sc. in Mathematics Education",
+      "area": "B.Sc. in Mathematics Education (second degree, part-time)",
       "studyType": "B.Sc.",
       "startDate": "2024",
       "endDate": "2026",
@@ -104,11 +114,13 @@
       "keywords": [
         "Python",
         "PyTorch",
+        "JAX",
         "NumPy",
         "SciPy",
         "scikit-learn",
         "Matplotlib",
-        "R"
+        "R",
+        "GPU parallel training"
       ]
     },
     {
@@ -150,27 +162,28 @@
   ],
   "interests": [
     {
-      "name": "Generative modeling",
+      "name": "Generative models (theory & methods)",
       "keywords": [
         "Diffusion models",
         "Score-based models",
         "Flow matching",
-        "Normalizing flows"
+        "Kernel score estimation",
+        "Density-estimation-based objectives"
       ]
     },
     {
       "name": "Optimal transport",
       "keywords": [
         "OT couplings",
+        "Unbalanced OT",
         "Schrodinger bridges"
       ]
     },
     {
-      "name": "Optimization",
+      "name": "Weak supervision",
       "keywords": [
-        "Objective design",
-        "Bayesian optimization",
-        "Linear programming"
+        "PU learning for recommender systems",
+        "Robust CTC under noisy transcripts"
       ]
     }
   ],
@@ -186,6 +199,20 @@
   ],
   "publications": [
     {
+      "name": "AlignBC: Robust Error-Aware CTC Training under Severe Transcript Noise",
+      "publisher": "Submitted to IJCAI 2027",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Alignment-weighted bounded costs for CTC-family objectives via posterior or unbalanced OT plans."
+    },
+    {
+      "name": "Derivative-Weighted Capacity Bounds for Kernel Score Estimation",
+      "publisher": "NeurIPS 2026 Workshop BeNTo",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Capacity-dependent rates for kernel score estimation with a matching minimax lower bound."
+    },
+    {
       "name": "Optimization of the Objective Function for Generative Models Based on Distribution Density Estimation",
       "publisher": "HCMUE Journal of Science",
       "releaseDate": "2025",
@@ -198,13 +225,6 @@
       "releaseDate": "2026",
       "website": "",
       "summary": "Optimal transport couplings for straighter probability paths and cheaper sampling."
-    },
-    {
-      "name": "Ranking Objects Based on Multiplicative Consistency of Comparison Matrices: Logarithmic Minimax (Chebyshev) Model and Applications",
-      "publisher": "HCMUE Journal of Science (under review)",
-      "releaseDate": "2026",
-      "website": "",
-      "summary": "A log-Chebyshev approximation reducing to a linear program, with a consistency index characterized by the maximum cycle mean."
     }
   ],
   "presentations": [
@@ -262,38 +282,45 @@
   ],
   "portfolio": [
     {
+      "name": "AlignBC: bounded-cost supervision for CTC training",
+      "category": "research",
+      "date": "2026",
+      "url": "/portfolio/01-alignbc-robust-ctc/",
+      "description": "Robust CTC training with unbalanced OT alignment weights."
+    },
+    {
+      "name": "Capacity-dependent theory for kernel score estimation",
+      "category": "research",
+      "date": "2026",
+      "url": "/portfolio/02-kernel-score-estimation/",
+      "description": "Derivative-weighted effective dimension and minimax rates."
+    },
+    {
       "name": "Density-estimation-based objective design for generative models",
       "category": "research",
       "date": "2025",
-      "url": "/portfolio/01-density-estimation-objectives/",
+      "url": "/portfolio/03-density-estimation-objectives/",
       "description": "M.Res. thesis work on unifying KL, score-matching and flow-matching objectives."
     },
     {
       "name": "Optimal transport couplings for score flow matching",
       "category": "research",
       "date": "2026",
-      "url": "/portfolio/02-optimal-transport-flow-matching/",
+      "url": "/portfolio/04-optimal-transport-flow-matching/",
       "description": "OT couplings for straighter paths and fewer solver steps."
     },
     {
       "name": "Bayesian optimization for machine learning models",
       "category": "research",
       "date": "2025",
-      "url": "/portfolio/03-bayesian-optimization/",
+      "url": "/portfolio/05-bayesian-optimization/",
       "description": "Failure modes of Bayesian optimization in high dimensions."
-    },
-    {
-      "name": "Ranking from pairwise comparison matrices",
-      "category": "research",
-      "date": "2026",
-      "url": "/portfolio/04-pairwise-comparison-ranking/",
-      "description": "Logarithmic minimax model reducing to a linear program."
     },
     {
       "name": "Operational and sales analytics at PVCFC",
       "category": "industry",
       "date": "2025",
-      "url": "/portfolio/05-industrial-analytics-pvcfc/",
+      "url": "/portfolio/06-industrial-analytics-pvcfc/",
       "description": "ERP data pipelines and Power BI dashboards."
     }
   ]

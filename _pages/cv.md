@@ -11,41 +11,40 @@ redirect_from:
 
 <a href="{{ base_path }}/files/CV-Thanh_Nguyen.pdf" class="btn btn--primary">Download CV as PDF</a>
 
-Applied mathematician working on the mathematical foundations of generative
-models. Currently seeking an **AI research internship or research scientist /
-research engineer position** starting in 2026.
+Applied mathematician working on the theory and methods of generative models
+and on learning under weak or noisy supervision. Currently seeking an **AI
+research internship or research scientist / research engineer position**.
 
 Education
 ======
 * **M.Res. in Applied Mathematics**, Ho Chi Minh City University of Technology (HCMUT), VNU-HCM, 2024–2026
   * GPA: 3.5/4.0 (≈ 8.42/10)
-  * Thesis: *Optimizing Score Flow Matching for Generative Models Based on Density Estimation*
+  * Thesis: *Optimizing Score Flow Matching for Generative Models Based on Density Estimation* (grade 9.8/10)
   * Advisor: Dr. Le Xuan Dai
-* **B.Sc. in Mathematics Education**, Dalat University, 2024–2026
+* **B.Sc. in Mathematics Education** (second degree, part-time), Dalat University, 2024–2026
   * GPA: 3.2/4.0
 * **B.Sc. in Finance & Banking**, University of Economics Ho Chi Minh City, 2020–2023
   * GPA: 3.2/4.0
 
 Research interests
 ======
-* Theoretical foundations of diffusion, score-based and flow-based generative models
-* Objective design and density estimation; numerical discretization and sampling efficiency
-* Optimal transport and Schrödinger bridges
-* Robustness of generative and sequence models under noisy supervision
+* **Generative models (theory & methods):** diffusion, score-based and flow matching models; optimal transport and Schrödinger bridges; density-estimation-based objectives
+* **Weak supervision:** PU learning for recommender systems; unbalanced OT for robust CTC
 
 Research experience
 ======
-* **Graduate Research Assistant**, Department of Applied Mathematics, HCMUT – VNU-HCM, Mar 2025 – present
-  * Advisor: Dr. Le Xuan Dai. Project: *Density-Estimation-Based Objective Design for Generative Models*
-  * Investigated the theoretical and empirical properties of training objectives for diffusion models, normalizing flows and variational autoencoders
-  * Developed a density-estimation-based formulation connecting KL minimization with score-matching and flow-matching objectives
-  * Designed comparative experiments on convergence, training stability and sample quality, and communicated the findings in research reports and visual analyses
+* **AlignBC: Bounded-Cost Supervision for CTC Training**, Mar 2026 – present
+  * Developed AlignBC, a training-only framework that adds alignment-weighted bounded costs to CTC-family objectives using posterior or unbalanced OT plans, without changing the decoder or inference
+  * Derived closed-form gradient updates and proved a mass–sensitivity factorization; achieved significant WER reductions in 7 of 8 CRNN-based STC/OTC comparisons on IAM and UIT-HWDB under synthetic transcript noise (five seeds; Holm-corrected tests)
 
-* **Graduate Research Assistant**, Department of Applied Mathematics, HCMUT – VNU-HCM, Oct 2024 – Mar 2025
-  * Advisor: Dr. Le Xuan Dai. Project: *Bayesian Optimization Algorithms for Machine Learning Models*
-  * Studied Bayesian optimization methods and their applicability to hyperparameter and architecture optimization in deep learning
-  * Analysed acquisition strategies, training dynamics and model characteristics to identify the limitations of conventional Bayesian optimization in high-dimensional settings
-  * Evaluated candidate algorithmic improvements on benchmark datasets and documented the methodology and findings
+* **Capacity-Dependent Theory for Kernel Score Estimation**, Jan 2026 – Aug 2026
+  * Introduced a derivative-weighted effective dimension for kernel score estimation, giving rates $\widetilde{O}_P(M^{-(r+1/2)/(2r+1+\alpha)})$ beyond capacity-independent bounds
+  * Proved an exact derivative penalty $2/A$ for diagonal and curl-free torus kernels and a matching minimax lower bound, with guarantees holding at every diffusion time
+
+* **Graduate Research Assistant**, Department of Applied Mathematics, HCMUT – VNU-HCM, Oct 2024 – Mar 2026
+  * Advisor: Dr. Le Xuan Dai
+  * *Generative models* (2025–2026): proposed objectives unifying KL, score and flow matching, and an OT-improved score flow matching objective (2 journal papers, M.Res. thesis)
+  * *Bayesian optimization* (2024–2025): benchmarked Bayesian optimization for hyperparameter search
 
 Publications and manuscripts
 ======
@@ -61,8 +60,8 @@ Industry experience
 
 Skills
 ======
-* **Programming:** Python (PyTorch, NumPy, SciPy, scikit-learn, Matplotlib), R
-* **Mathematical and ML foundations:** probability, mathematical statistics, optimization, ODEs, numerical methods, mathematical modelling and simulation; research exposure to score/flow matching, optimal transport and generative modelling
+* **Programming:** Python (PyTorch, JAX, NumPy, SciPy, scikit-learn, Matplotlib), R; GPU-parallel training
+* **Mathematical and ML foundations:** probability, mathematical statistics, optimization, ODEs, optimal transport, numerical methods; score/flow matching, kernel methods and generative modelling
 * **Research tools:** Git, Linux/Unix, LaTeX, Jupyter Notebook, manuscript preparation, experiment tracking and visualization
 * **Languages:** Vietnamese (native), English (professional working proficiency)
 
@@ -79,6 +78,14 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+{% if site.mentoring.size > 0 %}
+Mentoring
+======
+  <ul>{% for post in site.mentoring reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+{% endif %}
 
 Professional certificates
 ======

@@ -1,0 +1,38 @@
+---
+layout: archive
+title: "Mentoring"
+permalink: /mentoring/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>Since 2021 I have worked one-to-one with students in mathematics, from
+international curricula (IGCSE, IB, A-Level) to olympiad preparation. This page
+collects the students and projects I have mentored, and the kind of guidance I
+can offer.</p>
+
+<h2>Mentees &amp; projects</h2>
+
+{% assign mentees = site.mentoring | sort: "date" | reverse %}
+{% if mentees.size > 0 %}
+  {% for post in mentees %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p><em>Entries coming soon.</em></p>
+{% endif %}
+
+<h2>Mentoring areas</h2>
+
+<ul>
+  <li><strong>Getting started in research</strong> — reading papers in generative
+    modeling and optimal transport, choosing a first problem, and writing it up.</li>
+  <li><strong>Mathematics for machine learning</strong> — probability,
+    optimization and the analysis behind diffusion and flow-based models.</li>
+  <li><strong>Competition and advanced school mathematics</strong> — olympiad
+    problem solving and IGCSE / IB / A-Level mathematics.</li>
+</ul>
+
+<p>If you are a student interested in these topics, feel free to reach out at
+<a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
