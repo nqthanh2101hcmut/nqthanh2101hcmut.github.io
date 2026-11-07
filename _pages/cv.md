@@ -11,14 +11,14 @@ redirect_from:
 
 <a href="{{ base_path }}/files/CV-Thanh_Nguyen.pdf" class="btn btn--primary">Download CV as PDF</a>
 
-Applied mathematician working on the theory and methods of generative models
-and on learning under weak or noisy supervision. Currently seeking an **AI
+Applied mathematician working on probabilistic machine learning and generative
+modeling, and on robust learning under weak supervision. Currently seeking an **AI
 research internship or research scientist / research engineer position**.
 
 Education
 ======
 * **M.Res. in Applied Mathematics**, Ho Chi Minh City University of Technology (HCMUT), VNU-HCM, 2024–2026
-  * GPA: 3.5/4.0 (≈ 8.42/10)
+  * GPA: 3.5/4.0 (≈ 8.42/10); ranked 1st in cohort
   * Thesis: *Optimizing Score Flow Matching for Generative Models Based on Density Estimation* (grade 9.8/10)
   * Advisor: Dr. Le Xuan Dai
 * **B.Sc. in Mathematics Education** (second degree, part-time), Dalat University, 2024–2026
@@ -28,12 +28,12 @@ Education
 
 Research interests
 ======
-* **Generative models (theory & methods):** diffusion, score-based and flow matching models; optimal transport and Schrödinger bridges; density-estimation-based objectives
-* **Weak supervision:** PU learning for recommender systems; unbalanced OT for robust CTC
+* **Probabilistic machine learning and generative modeling:** theory and algorithms for diffusion models, score and flow matching, and optimal transport
+* **Robust learning under weak supervision:** noisy-label sequence modeling and positive–unlabeled learning for recommendation
 
 Research experience
 ======
-* **AlignBC: Bounded-Cost Supervision for CTC Training**, Mar 2026 – present
+* **AlignBC: Learning from Noisy Transcripts**, Mar 2026 – present
   * Developed AlignBC, a training-only framework that adds alignment-weighted bounded costs to CTC-family objectives using posterior or unbalanced OT plans, without changing the decoder or inference
   * Derived closed-form gradient updates and proved a mass–sensitivity factorization; achieved significant WER reductions in 7 of 8 CRNN-based STC/OTC comparisons on IAM and UIT-HWDB under synthetic transcript noise (five seeds; Holm-corrected tests)
 

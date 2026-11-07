@@ -9,14 +9,14 @@ author_profile: true
 
 I am **Thanh Nguyen**, an applied mathematician from Ho Chi Minh City. I hold an
 M.Res. in Applied Mathematics from the **Ho Chi Minh City University of
-Technology (HCMUT), VNU-HCM**, where I worked with **Dr. Le Xuan Dai**. My
-thesis, *Optimizing Score Flow Matching for Generative Models Based on Density
-Estimation*, was graded 9.8/10.
+Technology (HCMUT), VNU-HCM**, where I worked with **Dr. Le Xuan Dai** and
+ranked 1st in my cohort. My thesis, *Optimizing Score Flow Matching for
+Generative Models Based on Density Estimation*, was graded 9.8/10.
 
-My work has two threads. The first is the **theory and methods of generative
-models**: what a diffusion, score-based or flow-matching objective actually
+My work has two threads. The first is **probabilistic machine learning and
+generative modeling**: what a diffusion, score-based or flow-matching objective actually
 estimates, how fast it can be learned, and how optimal transport can make it
-cheaper to train and sample. The second is **learning under weak or noisy
+cheaper to train and sample. The second is **robust learning under weak
 supervision**, where I use tools such as unbalanced optimal transport to make
 training objectives robust to labels that cannot be trusted.
 
@@ -26,13 +26,11 @@ implementation, and the experiment that decides between them.
 
 ## Research interests
 
-* **Generative models (theory & methods)** — diffusion, score-based and flow
-  matching models; statistical rates for score estimation; density-estimation-based
-  training objectives.
-* **Optimal transport and Schrödinger bridges** — OT couplings for straighter
-  probability paths, and unbalanced OT as a tool for robust alignment.
-* **Weak supervision** — positive-unlabeled (PU) learning for recommender
-  systems; robust CTC training under noisy transcripts.
+* **Probabilistic machine learning and generative modeling** — theory and
+  algorithms for diffusion models, score and flow matching, and optimal
+  transport.
+* **Robust learning under weak supervision** — noisy-label sequence modeling
+  and positive–unlabeled (PU) learning for recommendation.
 
 ## Currently looking for
 
@@ -59,8 +57,8 @@ ongoing projects are described under [research]({{ base_path }}/portfolio/).
 
 ## News
 
-* **2026** — *AlignBC: Robust Error-Aware CTC Training under Severe Transcript
-  Noise* submitted to *IJCAI 2027*.
+* **2026** — *AlignBC: Learning from Noisy Transcripts with Alignment-Weighted
+  Bounded Costs* submitted to *IJCAI 2027*.
 * **2026** — *Derivative-Weighted Capacity Bounds for Kernel Score Estimation*
   accepted at the *NeurIPS 2026 Workshop BeNTo*.
 * **2026** — Completed my M.Res. in Applied Mathematics at HCMUT; thesis graded

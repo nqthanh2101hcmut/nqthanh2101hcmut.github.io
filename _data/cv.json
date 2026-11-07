@@ -4,7 +4,7 @@
     "email": "nqthanh2101.hcmut@gmail.com",
     "phone": "",
     "website": "https://nqthanh2101hcmut.github.io/personalpage",
-    "summary": "Applied mathematician (M.Res., HCMUT, VNU-HCM) working on the theory and methods of generative models (diffusion, score-based and flow matching models, optimal transport) and on learning under weak or noisy supervision. Seeking an AI research internship or research scientist role.",
+    "summary": "Applied mathematician (M.Res., HCMUT, VNU-HCM) working on probabilistic machine learning and generative modeling (diffusion models, score and flow matching, optimal transport) and on robust learning under weak supervision. Seeking an AI research internship or research scientist role.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -28,7 +28,7 @@
   "work": [
     {
       "company": "Research project (first author)",
-      "position": "AlignBC: Bounded-Cost Supervision for CTC Training",
+      "position": "AlignBC: Learning from Noisy Transcripts",
       "website": "",
       "startDate": "2026-03-01",
       "endDate": "",
@@ -84,6 +84,7 @@
       "endDate": "2026",
       "gpa": "3.5/4.0",
       "courses": [
+        "Ranked 1st in cohort",
         "Thesis: Optimizing Score Flow Matching for Generative Models Based on Density Estimation (grade 9.8/10)",
         "Advisor: Dr. Le Xuan Dai"
       ]
@@ -162,28 +163,20 @@
   ],
   "interests": [
     {
-      "name": "Generative models (theory & methods)",
+      "name": "Probabilistic machine learning and generative modeling",
       "keywords": [
         "Diffusion models",
-        "Score-based models",
+        "Score matching",
         "Flow matching",
-        "Kernel score estimation",
-        "Density-estimation-based objectives"
+        "Optimal transport",
+        "Kernel score estimation"
       ]
     },
     {
-      "name": "Optimal transport",
+      "name": "Robust learning under weak supervision",
       "keywords": [
-        "OT couplings",
-        "Unbalanced OT",
-        "Schrodinger bridges"
-      ]
-    },
-    {
-      "name": "Weak supervision",
-      "keywords": [
-        "PU learning for recommender systems",
-        "Robust CTC under noisy transcripts"
+        "Noisy-label sequence modeling",
+        "Positive-unlabeled learning for recommendation"
       ]
     }
   ],
@@ -199,7 +192,7 @@
   ],
   "publications": [
     {
-      "name": "AlignBC: Robust Error-Aware CTC Training under Severe Transcript Noise",
+      "name": "AlignBC: Learning from Noisy Transcripts with Alignment-Weighted Bounded Costs",
       "publisher": "Submitted to IJCAI 2027",
       "releaseDate": "2026",
       "website": "",
@@ -282,7 +275,7 @@
   ],
   "portfolio": [
     {
-      "name": "AlignBC: bounded-cost supervision for CTC training",
+      "name": "AlignBC: learning from noisy transcripts",
       "category": "research",
       "date": "2026",
       "url": "/portfolio/01-alignbc-robust-ctc/",

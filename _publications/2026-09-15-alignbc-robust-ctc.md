@@ -1,5 +1,5 @@
 ---
-title: "AlignBC: Robust Error-Aware CTC Training under Severe Transcript Noise"
+title: "AlignBC: Learning from Noisy Transcripts with Alignment-Weighted Bounded Costs"
 collection: publications
 category: underreview
 selected: true
@@ -7,7 +7,7 @@ permalink: /publication/2026-09-15-alignbc-robust-ctc
 excerpt: 'A training-only framework that adds alignment-weighted bounded costs to CTC-family objectives, using posterior or unbalanced optimal transport plans, to make CTC training robust to noisy transcripts without changing the decoder or inference.'
 date: 2026-09-15
 venue: 'Submitted to IJCAI 2027'
-citation: 'Thanh Nguyen, et al. &quot;AlignBC: Robust Error-Aware CTC Training under Severe Transcript Noise.&quot; Submitted to <i>IJCAI 2027</i>.'
+citation: 'Thanh Nguyen, et al. &quot;AlignBC: Learning from Noisy Transcripts with Alignment-Weighted Bounded Costs.&quot; Submitted to <i>IJCAI 2027</i>.'
 ---
 
 <!-- TODO: update venue/date when the decision is out; add paperurl (e.g. arXiv) if you post a preprint. -->

@@ -1,5 +1,5 @@
 ---
-title: "AlignBC: bounded-cost supervision for CTC training"
+title: "AlignBC: learning from noisy transcripts"
 excerpt: "A training-only framework that makes CTC-family objectives robust to noisy transcripts using alignment-weighted bounded costs from posterior or unbalanced optimal transport plans."
 collection: portfolio
 ---
@@ -29,7 +29,7 @@ objective, without touching the decoder or inference?
 
 ### Output
 
-*AlignBC: Robust Error-Aware CTC Training under Severe Transcript Noise*,
+*AlignBC: Learning from Noisy Transcripts with Alignment-Weighted Bounded Costs*,
 submitted to IJCAI 2027.
 
 **Tools:** Python, PyTorch, GPU-parallel training, OT solvers.
