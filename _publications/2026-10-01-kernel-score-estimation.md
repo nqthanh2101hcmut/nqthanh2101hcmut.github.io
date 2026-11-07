@@ -3,9 +3,11 @@ title: "Derivative-Weighted Capacity Bounds for Kernel Score Estimation"
 collection: publications
 category: conferences
 selected: true
-permalink: /publication/2026-09-01-kernel-score-estimation
+permalink: /publication/2026-10-01-kernel-score-estimation
+redirect_from:
+  - /publication/2026-09-01-kernel-score-estimation
 excerpt: 'Capacity-dependent learning rates for kernel score estimation via a derivative-weighted effective dimension, with a matching minimax lower bound and guarantees that hold at every diffusion time.'
-date: 2026-09-01
+date: 2026-10-01
 venue: 'NeurIPS 2026 Workshop BeNTo'
 citation: 'Thanh Nguyen, et al. (2026). &quot;Derivative-Weighted Capacity Bounds for Kernel Score Estimation.&quot; <i>NeurIPS 2026 Workshop BeNTo</i>.'
 ---

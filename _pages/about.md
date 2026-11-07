@@ -57,14 +57,14 @@ ongoing projects are described under [research]({{ base_path }}/portfolio/).
 
 ## News
 
-* **2026** — *AlignBC: Learning from Noisy Transcripts with Alignment-Weighted
-  Bounded Costs* submitted to *IJCAI 2027*.
-* **2026** — *Derivative-Weighted Capacity Bounds for Kernel Score Estimation*
-  accepted at the *NeurIPS 2026 Workshop BeNTo*.
-* **2026** — Completed my M.Res. in Applied Mathematics at HCMUT; thesis graded
-  9.8/10.
-* **2026** — *Improving the Score Flow Matching Objective Function via Optimal
-  Transport* accepted in the *HUFLIT Journal of Science*.
+* **Nov 2026** — *AlignBC: Learning from Noisy Transcripts with
+  Alignment-Weighted Bounded Costs* submitted to *IJCAI 2027*.
+* **Oct 2026** — *Derivative-Weighted Capacity Bounds for Kernel Score
+  Estimation* accepted at the *NeurIPS 2026 Workshop BeNTo*.
+* **Jun 2026** — Completed my M.Res. in Applied Mathematics at HCMUT; thesis
+  graded 9.8/10.
+* **Apr 2026** — *Improving the Score Flow Matching Objective Function via
+  Optimal Transport* accepted in the *HUFLIT Journal of Science*.
 * **Sep 2025** — Attended the Summer School on AI Agents, HUST, Hanoi.
 * **Aug 2025** — Attended the 7th National Conference *Prob-Stats: Research,
   Application and Teaching*, Quy Nhon.

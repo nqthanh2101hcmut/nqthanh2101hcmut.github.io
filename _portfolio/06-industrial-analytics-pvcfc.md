@@ -2,6 +2,8 @@
 title: "Operational and sales analytics at PVCFC (PetroVietnam)"
 excerpt: "ERP data extraction and cleaning plus Power BI dashboards for revenue, production and sales monitoring, supporting a roughly 5% reduction in excess inventory."
 collection: portfolio
+period: "Oct 2024 – Apr 2025"
+status: "Industry internship"
 redirect_from:
   - /portfolio/05-industrial-analytics-pvcfc/
 ---

@@ -3,9 +3,11 @@ title: "AlignBC: Learning from Noisy Transcripts with Alignment-Weighted Bounded
 collection: publications
 category: underreview
 selected: true
-permalink: /publication/2026-09-15-alignbc-robust-ctc
+permalink: /publication/2026-11-01-alignbc-robust-ctc
+redirect_from:
+  - /publication/2026-09-15-alignbc-robust-ctc
 excerpt: 'A training-only framework that adds alignment-weighted bounded costs to CTC-family objectives, using posterior or unbalanced optimal transport plans, to make CTC training robust to noisy transcripts without changing the decoder or inference.'
-date: 2026-09-15
+date: 2026-11-01
 venue: 'Submitted to IJCAI 2027'
 citation: 'Thanh Nguyen, et al. &quot;AlignBC: Learning from Noisy Transcripts with Alignment-Weighted Bounded Costs.&quot; Submitted to <i>IJCAI 2027</i>.'
 ---

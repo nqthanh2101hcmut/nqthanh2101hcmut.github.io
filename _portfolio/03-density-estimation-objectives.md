@@ -2,6 +2,8 @@
 title: "Density-estimation-based objective design for generative models"
 excerpt: "M.Res. thesis (graded 9.8/10): a single density-estimation formulation that connects KL minimization with score-matching and flow-matching objectives, tested on convergence, stability and sample quality."
 collection: portfolio
+period: "2025 – Mar 2026"
+status: "Published in HCMUE Journal of Science (2025); M.Res. thesis completed Jun 2026"
 redirect_from:
   - /portfolio/01-density-estimation-objectives/
 ---

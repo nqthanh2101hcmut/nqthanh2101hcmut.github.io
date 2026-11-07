@@ -2,6 +2,8 @@
 title: "Optimal transport couplings for score flow matching"
 excerpt: "Replacing the independent coupling in score flow matching with an optimal transport coupling: straighter probability paths, lower-variance training signal, and fewer solver steps at inference."
 collection: portfolio
+period: "2025 – 2026"
+status: "Accepted in HUFLIT Journal of Science (Apr 2026)"
 redirect_from:
   - /portfolio/02-optimal-transport-flow-matching/
 ---

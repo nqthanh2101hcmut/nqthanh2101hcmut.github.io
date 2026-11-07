@@ -36,6 +36,12 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'portfolio' %}
+          {% if page.period or page.status %}<p class="page__date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ page.period }}{% if page.period and page.status %} · {% endif %}{{ page.status }}</p>{% endif %}
+        {% elsif page.collection == 'mentoring' %}
+          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.period }} </p>
+        {% elsif page.collection == 'publications' and page.category == 'underreview' %}
+          <p><i>{{ page.venue }}</i> — under review; paper not yet available.</p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}

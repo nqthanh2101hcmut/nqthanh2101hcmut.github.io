@@ -2,6 +2,8 @@
 title: "Capacity-dependent theory for kernel score estimation"
 excerpt: "A derivative-weighted effective dimension that gives capacity-dependent rates for kernel score estimation, with a matching minimax lower bound and guarantees at every diffusion time."
 collection: portfolio
+period: "Jan 2026 – Aug 2026"
+status: "Accepted at NeurIPS 2026 Workshop BeNTo (Oct 2026)"
 ---
 
 **Role:** First author · **Jan 2026 – Aug 2026** · NeurIPS 2026 Workshop BeNTo

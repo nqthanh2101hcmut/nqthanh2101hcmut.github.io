@@ -2,6 +2,8 @@
 title: "AlignBC: learning from noisy transcripts"
 excerpt: "A training-only framework that makes CTC-family objectives robust to noisy transcripts using alignment-weighted bounded costs from posterior or unbalanced optimal transport plans."
 collection: portfolio
+period: "Mar 2026 – present"
+status: "Submitted to IJCAI 2027 (Nov 2026) — under review, paper not yet available"
 ---
 
 **Role:** First author · **Mar 2026 – present** · Manuscript submitted to IJCAI 2027

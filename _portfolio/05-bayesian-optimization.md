@@ -2,6 +2,8 @@
 title: "Bayesian optimization for machine learning models"
 excerpt: "A study of acquisition strategies and training dynamics to identify where conventional Bayesian optimization breaks down in high-dimensional hyperparameter and architecture search."
 collection: portfolio
+period: "Oct 2024 – Mar 2025"
+status: "Completed"
 redirect_from:
   - /portfolio/03-bayesian-optimization/
 ---
