@@ -1,5 +1,5 @@
 ---
-title: "AlignBC: learning from noisy transcripts"
+title: "AlignBC: Learning from Noisy Transcripts with Alignment-Weighted Bounded Costs"
 excerpt: "A training-only framework that makes CTC-family objectives robust to noisy transcripts using alignment-weighted bounded costs from posterior or unbalanced optimal transport plans."
 collection: portfolio
 period: "Mar 2026 – present"

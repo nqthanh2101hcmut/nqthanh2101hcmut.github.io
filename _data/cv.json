@@ -303,7 +303,7 @@
   ],
   "portfolio": [
     {
-      "name": "AlignBC: learning from noisy transcripts",
+      "name": "AlignBC: Learning from Noisy Transcripts with Alignment-Weighted Bounded Costs",
       "category": "research",
       "date": "2026",
       "url": "/portfolio/01-alignbc-robust-ctc/",
