@@ -7,8 +7,8 @@ description              : "Applied mathematics researcher working on the theory
 keywords                 : "generative models, diffusion models, score matching, flow matching, kernel score estimation, optimal transport, Schrodinger bridge, density estimation, weak supervision, PU learning, CTC, machine learning, applied mathematics"
 
 url                      : "https://nqthanh2101hcmut.github.io"
-baseurl                  : "/personalpage"
-repository               : "nqthanh2101hcmut/personalpage"
+baseurl                  : ""
+repository               : "nqthanh2101hcmut/nqthanh2101hcmut.github.io"
 
 # Set to false if you do not want the "See a map of all the places I have given a talk" link
 talkmap_link             : false
