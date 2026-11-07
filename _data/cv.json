@@ -271,6 +271,34 @@
       "date": "2021-06-01",
       "role": "Coach",
       "description": "Preparation for TIMO, HKIMO, SASMO, SEAMO, AMC and ASMO."
+    },
+    {
+      "course": "Calculus 1–2",
+      "institution": "Independent",
+      "date": "2021-01-01",
+      "role": "Tutor (university course)",
+      "description": "Limits, differentiation, integration, series and multivariable calculus."
+    },
+    {
+      "course": "Linear Algebra",
+      "institution": "Independent",
+      "date": "2021-01-01",
+      "role": "Tutor (university course)",
+      "description": "Linear systems, vector spaces, linear maps, eigenvalues and orthogonality."
+    },
+    {
+      "course": "Probability & Statistics",
+      "institution": "Independent",
+      "date": "2021-01-01",
+      "role": "Tutor (university course)",
+      "description": "Probability, random variables, estimation, hypothesis testing and regression."
+    },
+    {
+      "course": "Econometrics",
+      "institution": "Independent",
+      "date": "2021-01-01",
+      "role": "Tutor (university course)",
+      "description": "Linear regression, OLS inference, heteroskedasticity, autocorrelation and time series."
     }
   ],
   "portfolio": [
